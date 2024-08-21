@@ -84,8 +84,8 @@ def login(email, password):
     driver.close()
 
 
-email = "xxxxxxxx@gmail.com"
-password = "xxxxxxxx"
+email = "replacewithyouremail@gmail.com"
+password = "replacewithyourpassword"
 login(email, password)
 
 
@@ -95,6 +95,7 @@ login(email, password)
 
 
 # Adding to databse
+# REPLACE DATABSE_URL WITH YOUR DATABASE INFORMATION
 DATABASE_URL = "mysql://username:password@host:port/database"
 
 engine = create_engine(DATABASE_URL)
