@@ -1,5 +1,11 @@
-# webscraping
+# Python Webscraping Projects
 
 ## THIS CODE IS ONLY TO BE USED FOR EDUCATIONAL / LEARNING / DEMONSTRATIONAL PURPOSES
 
-This code is an educational project that utilizes beautiful soup to scrape and store the billboard top 100 songs from each week to excel and csv files
+
+### Project 1: BeautifulSoup
+The billboardhot100.py utilizes python beautifulsoup library to scrape the Billboard hot 100 songs [title](https://www.billboard.com/charts/hot-100/) from each week and stores them into excel and csv files.
+
+
+### Project 2: Selenium
+The login.py utilizes python selenium to automate the login process on [title](https://www.hardwareworld.com/), and then navigates to the motor oils section to store all the products into excel and csv files
